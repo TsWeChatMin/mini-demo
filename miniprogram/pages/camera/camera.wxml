@@ -1,0 +1,17 @@
+<camera
+ mode="normal"
+ device-position="{{devicePosition}}"
+ flash="{{flash}}"
+ binderror="error"
+ class="camera"
+>
+	<cover-view class="controls">
+		<cover-view class="photo" bindtap="choosePhoto">
+			<cover-image class="img" src="../../images/photo.png" />
+		</cover-view>
+
+		<cover-view class="take-photo" bindtap="takePhoto">
+			<cover-image class="img" src="../../images/camera.png" />
+		</cover-view>
+	</cover-view>
+</camera>

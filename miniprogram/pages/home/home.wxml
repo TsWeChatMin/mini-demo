@@ -1,0 +1,10 @@
+<view>
+
+	<navigator url="../camera/camera" open-type="navigate" hover-class="none">
+		<button size="defult" type="defult">
+			去拍照
+		</button>
+	</navigator>
+
+</view>
+

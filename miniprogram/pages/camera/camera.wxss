@@ -1,0 +1,33 @@
+.camera {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.take-photo {
+    position: absolute;
+    bottom: 10rpx;
+    left: 40rpx;
+    left: 50%;
+    margin-left: -30rpx;
+}
+
+.img {
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.photo{
+    position: absolute;
+    bottom: 10rpx;
+    left: 40rpx;
+}
+
+.controls {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 80rpx;
+    background-color: rgba(0, 0, 0, 0.4);
+}
