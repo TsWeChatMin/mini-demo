@@ -56,6 +56,7 @@ Page({
             success: (res) => {
                 this.setData({ src: res.tempImagePath })
 
+
                 wx.navigateTo({
                     url: `${this.data.backUrl}?image=${res.tempImagePath}`
                 })
@@ -68,8 +69,11 @@ Page({
     choosePhoto() {
         wx.chooseImage({
             sourceType: [ "album" ],
-            success(res) {
+            success: (res) => {
                 console.log(res.tempFilePaths[0])
+                wx.navigateTo({
+                    url: `${this.data.backUrl}?image=${res.tempFilePaths[0]}`
+                })
             }
         })
     }
